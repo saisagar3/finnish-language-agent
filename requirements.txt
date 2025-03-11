@@ -2,6 +2,7 @@
 torch>=2.0.0
 transformers>=4.30.0
 datasets>=2.12.0
+langchain>=0.3.20,<0.4.0
 
 # Data Processing
 pandas>=2.0.1
@@ -11,10 +12,19 @@ scikit-learn>=1.2.2
 # NLP
 sentencepiece>=0.1.99
 sacremoses>=0.0.53
+nltk>=3.8.1
 
 # Utils
 huggingface_hub>=0.15.1
 
+# Testing
+pytest>=7.3.1
+
+# UI & API
+fastapi>=0.95.0
+
 # Development & Debugging
 ipykernel>=6.23.1
 jupyter>=1.0.0
+
+python-dotenv>=1.0.0
